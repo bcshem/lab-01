@@ -20,7 +20,7 @@ public abstract class Mood {
     public Date getDate() {
         return date;
     }
-
+//j
     // Setter
     public void setDate(Date date) {
         this.date = date;
