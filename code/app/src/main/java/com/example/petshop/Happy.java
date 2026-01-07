@@ -1,4 +1,17 @@
 package com.example.petshop;
 
-public class Happy {
+import java.util.Date;
+
+public class Happy extends Mood {
+    public Happy(Date date) {
+        super(date);
+    }
+
+    public Happy() {
+        super();
+    }
+    @Override
+    public String express() {
+        return "hooray";
+    }
 }
